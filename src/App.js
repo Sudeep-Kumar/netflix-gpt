@@ -1,9 +1,11 @@
 import './App.css';
+import Header from '../src/components/Header';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className=" text-3xl  text-green-500  ">
-      Namate Netflix GPT
+    <div>
+      <Body/>
     </div>
   );
 }
