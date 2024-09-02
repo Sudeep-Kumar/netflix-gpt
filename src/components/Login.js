@@ -42,7 +42,7 @@ const Login = () => {
         <input  onChange={(e)=> setErrorMessage(null)}   ref ={password} type='text' className='  rounded-lg p-2  my-2 w-full bg-gray-700' placeholder='Password'/>
         {errorMessage && (<p className='font-bold  p-2 text-red-500 ' >{errorMessage}</p>)}
         <button onClick={ handleButtonPress} className=' rounded-lg my-4 p-2 w-full bg-red-500 '>{isSignInForm?'SignIn':'SignUp'}</button> 
-        <p onClick={toggleButtonPress} className='my-2' > {isSignInForm?'New to Netflix? SignUp now':'Already have account? SignIn '}</p>
+        <p onClick={toggleButtonPress} className='my-2' > {isSignInForm? 'New to Netflix? SignUp now':'Already have account? SignIn '}</p>
        </form>
        </div>
 
